@@ -1,8 +1,9 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import { Box } from '@mui/joy';
 
 export default function Home() {
   return (
-    <>HI</>
+    <Box display="flex">
+      <>Hello</>
+    </Box>
   );
 }
