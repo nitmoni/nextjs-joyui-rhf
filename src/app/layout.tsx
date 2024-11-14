@@ -3,9 +3,9 @@ import { ReactNode } from 'react';
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body suppressHydrationWarning>
-        <Layout>
+    <html lang="en">
+      <body>
+        <Layout options={{ key: 'joy' }}>
           {children}
         </Layout>
       </body>
